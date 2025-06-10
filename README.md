@@ -5,7 +5,8 @@
 ## TODOS
 
 - [x] create design
-
+- [ ] implement design
+- [ ] 
 ---
 
 ## Step 1 - Design 
@@ -20,7 +21,24 @@
 ## eficient Design
 1. repeadable design: 
     - easy to reuse
-    - divide in parts
+    - break page into sechtions
 
 2. hero section
-    -
+    - first section that the user see
+
+3. information sections
+    - contain information about the product
+    - get users attention => make simple easy to read, transparency here
+
+4. explain feature and benefits  
+   - keep asking: what is the purpose of this section
+   - look at the apple website for example: how ist the camera? is it fast? ...
+
+5. colour and fonts
+   - at least 4 colour (include black and white)
+   - 1 fonts per website
+
+---
+
+## watch tutorial
+- https://www.youtube.com/watch?v=BOt3MNB71gI&list=PLjiHFwhbHYlEmPhn68XdG2p2k4X47XR-8 (prototyping)
