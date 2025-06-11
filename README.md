@@ -4,9 +4,11 @@
 
 ## TODOS
 
-- [x] create design
+- [x] define a structure for the website
+- [ ] create a design for the website via figma
 - [ ] implement design
-- [ ] 
+
+
 ---
 
 ## Step 1 - Design 
@@ -15,6 +17,28 @@
 
 1. what does the user want?, how should the webside look like?
 2. which tool can u use to create the design? (paper, figma, ...)
+
+### THINK
+- how should the website look like?
+  1. portfolio page: with introduction, my skills and interesting project from university time
+  2. about page: with information about me (where i came from, where i'm going, meanwhile what i'm doing)
+  3. resume page: link to my resume
+
+### PLAN
+- get inspiration from other portfolio websites
+
+- create a wireframe for each page
+  - use figma to design the layout
+  - focus on user experience and navigation
+
+### RESEARCH
+- inspiration:   
+  - https://webflow.com
+    - https://www.laurenhungdesign.com/
+    - https://akshayamad.webflow.io/
+  - https://www.behance.net
+
+
 
 ## Step 2 - Coding
 
