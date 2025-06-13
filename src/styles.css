@@ -16,10 +16,9 @@ body {
 /* 3. container for center layout, limit the width */
 .container {
     max-width: 1200px;
-    margin: 0 left; /* Center the container */
+    margin: 0 auto; /* Center the container */
     padding: 0 1.5rem; /* left/right padding */
     display: flex; /* change container to a flex container */
-    flex-direction: flex; /* Flexbox for layout */
     justify-content: space-between; /* Space between leftside and rightside */
     align-items: center; /* Center items vertically */
 }
@@ -64,4 +63,30 @@ body {
     color: #000;
     border-bottom: 2px solid #000; /* Active link underline */
     padding-bottom: 0.25rem; /* Space for underline */
+}
+
+.hello-section {
+    padding: 60px 0; /* Top/bottom padding */
+    background-color: #fafafa;
+}
+.hello-content {
+    max-width: 800px;
+    margin: 0 auto; /* Center the content */
+    text-align: left; /* left the text */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: left; /* left items horizontally */
+    gap: 16px; /* Space between items */
+}
+
+.hello-content h1{
+    font-size: 2.5rem; /* Large heading */
+    font-weight: 500; /* Bold */
+    margin: 0;
+    color: #333; /* Dark color */
+}
+.hello-content .subtitle {
+    font-size: 1.25rem;
+    color: #777;
+    margin: 0;
 }
