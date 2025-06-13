@@ -41,6 +41,7 @@
   - https://www.behance.net
 
 ### Result
+
 ![website_structure_v1](image/figma_structure_v1.png)
 
 ## Step 2 - Coding
