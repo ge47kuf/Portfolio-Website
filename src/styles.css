@@ -159,3 +159,70 @@ body {
 .project-link:hover {
     color: #005f99; /* Darker color on hover */
 }
+/*======================================skill section==================================*/
+.skills-title {
+    text-align: center; /* Center the title */
+    font-size: 0.75rem; /* Title size */
+    margin-bottom: 32px; /* Space below the title */
+}
+.skills-subtitle {
+    display: block;
+    font-size: 0.6rem;
+    letter-spacing: 0.1rem;
+    color: #555;
+}
+.skills {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+.skills-section {
+    padding: auto;
+    background-color: #fafafa;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(280px, 1fr)); /* Responsive grid */
+    gap: 32px; /* Space between items */
+    width: 100%; /* Full width */
+}
+.skill-card {
+    background-color: #fff; /* White background */
+    border: 1px solid #e0e0e0; /* Border around the card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 24px; /* Inner padding */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: space-between; /* Space between items */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition */
+}
+.skill-card:hover {
+    transform: translateY(-4px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+.skill-card h3 {
+    font-size: 1.25rem; /* Card title size */
+    margin-bottom: 5px; /* Space below the title */
+    color: #333; /* Dark color */
+}
+.skill-card ul {
+    list-style: none;
+    padding: 0; /* Remove default padding */
+}
+.skill-card li {
+    position: relative;
+    padding-left: 20px; /* Indent the list */
+    margin-bottom: 12px;
+    font-size: 0.875rem; /* Smaller text for skills */
+    color: #555; /* Lighter color */
+}
+.skill-card li::before {
+    content: '•'; /* Bullet point */
+    position: absolute;
+    left: 0; /* Position bullet point */
+    top: 0; /* Align bullet point with text */
+    color: #007acc; /* Color of the bullet point */
+}
+
+
+
+
