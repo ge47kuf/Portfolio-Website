@@ -164,6 +164,7 @@ body {
     text-align: center; /* Center the title */
     font-size: 0.75rem; /* Title size */
     margin-bottom: 32px; /* Space below the title */
+    
 }
 .skills-subtitle {
     display: block;
@@ -222,7 +223,20 @@ body {
     top: 0; /* Align bullet point with text */
     color: #007acc; /* Color of the bullet point */
 }
+/*=======================================contact section===================================*/
+.contact-section {
+    padding: 20px 0; /* Top/bottom padding */
+    background-color: #fafafa; /* Light background */
+    text-align: center; /* Center the content */
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
 
+.contact-subtitle {
+    display: block; /* Block display for subtitle */
+    font-size: 0.6rem; /* Title size */
+    letter-spacing: 0.1rem;
+}
 
 
 
