@@ -1,7 +1,6 @@
 # My first portfolio website
 
 **this project document my workflow of create my first portfolio website**
-https://ge47kuf.github.io/Portfolio-Website/
 
 ## TODOS
 
