@@ -1,7 +1,8 @@
 # My first portfolio website
 
 **this project document my workflow of create my first portfolio website**
-https://ge47kuf.github.io/Portfolio-Website/
+<https://ge47kuf.github.io/Portfolio-Website/>
+
 ## TODOS
 
 - [x] define a structure for the website
@@ -35,10 +36,10 @@ https://ge47kuf.github.io/Portfolio-Website/
 ### RESEARCH
 
 - inspiration:
-  - https://webflow.com
-    - https://www.laurenhungdesign.com/
-    - https://akshayamad.webflow.io/
-  - https://www.behance.net
+  - <https://webflow.com>
+    - <https://www.laurenhungdesign.com/>
+    - <https://akshayamad.webflow.io/>
+  - <https://www.behance.net>
 
 ### Result
 
@@ -75,4 +76,4 @@ https://ge47kuf.github.io/Portfolio-Website/
 
 ## watch tutorial
 
-- https://www.youtube.com/watch?v=BOt3MNB71gI&list=PLjiHFwhbHYlEmPhn68XdG2p2k4X47XR-8 (prototyping)
+- <https://www.youtube.com/watch?v=BOt3MNB71gI&list=PLjiHFwhbHYlEmPhn68XdG2p2k4X47XR-8> (prototyping)
