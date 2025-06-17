@@ -42,7 +42,7 @@ https://ge47kuf.github.io/Portfolio-Website/
 
 ### Result
 
-![website_structure_v1](image/figma_structure_v1.png)
+![website_structure_v1](docs/image/figma_structure_v1.png)
 
 ## Step 2 - Coding
 
