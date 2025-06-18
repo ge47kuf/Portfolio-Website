@@ -2,28 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <!-- <meta viewport> make page work on mobile device -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <!-- Link to CSS file -->
-  <link href="styles.css" rel="stylesheet" /> 
-</head>
+  <title>About – Tuan Le</title>
 
+  <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-    <!-- Header Section -->
-    <header class="site-header">
-        <div class="container"> <!-- class for layout alignt center with fix padding -->
-            <!-- Logo, name-->
-            <a href="index.html" class="logo">Tuan Le</a>
-            <!-- Navigation -->
-            <nav class="main-nav">
-                <ul>
-                    <!-- class active mark current menu point -->
-                    <li><a href="index.html" class="active">Portfolio</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="resume.pdf" target="_blank" rel="noopener">Resume</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+
+  <!-- HEADER (identisch) -->
+  <header class="site-header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">Tuan Le</a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Portfolio</a></li>
+          <li><a href="about.html" class="nav__link  nav__link--active">About</a></li>
+          <li><a href="resume.pdf" class="nav__link" target="_blank" rel="noopener">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="about">
+
+    <!-- SECTION 1 -->
+    <section class="about__block container">
+      <div class="about__image">
+        <img src="images/profile.jpg" alt="Profile picture">
+      </div>
+      <div class="about__text">
+        <h2 class="about__title">Where I Came From</h2>
+        <p  class="about__paragraph">
+          Kurz etwas zu deinem Background …
+        </p>
+      </div>
+    </section>
+
+    <!-- SECTION 2 -->
+    <section class="about__block container">
+      <div class="about__image">
+        <img src="images/profile.jpg" alt="Future picture">
+      </div>
+      <div class="about__text">
+        <h2 class="about__title">Where I’m Going</h2>
+        <p  class="about__paragraph">
+          Deine Zukunftspläne …
+        </p>
+      </div>
+    </section>
+
+  </main>
 </body>
+</html>

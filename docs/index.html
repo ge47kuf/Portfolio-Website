@@ -2,123 +2,146 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <!-- <meta viewport> make page work on mobile device -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <!-- Link to CSS file -->
-  <link href="styles.css" rel="stylesheet" /> 
+  <title>Portfolio – Tuan Le</title>
+
+  <!-- Global Styles -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header Section -->
-    <header class="site-header">
-        <div class="container"> <!-- class for layout alignt center with fix padding -->
-            <!-- Logo, name-->
-            <a href="index.html" class="logo">Tuan Le</a>
-            <!-- Navigation -->
-            <nav class="main-nav">
-                <ul>
-                    <!-- class active mark current menu point -->
-                    <li><a href="index.html" class="active">Portfolio</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="resume.pdf" target="_blank" rel="noopener">Resume</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- hello section -->
-    <section class="hello-section">
-        <div class="hello-content">
-            <h1>Hi There! I'm Tuan</h1>
-            <p class="subtitle">I'm currently studying Computer Science in Munich.
-                this is a test portfolio page to showcase my projects and skills.
-            </p>
-        </div>
-    </section>
-    <!-- selected project title -->
-    <section class="selected-projects">
-        <!-- section title -->
-        <div class="selected-projects">
-            <span class="selected-projects-text">SELECTED PROJECTS</span>                
-            <span class="selected-projects-symbol">↓</span>
-        </div>
-    </section>
-    <!-- experience section -->
-    <section class="projects-section">
-        <div class ="container">
-            <!-- Projects grids -->
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card">
-                    <h3>project 1</h3>
-                    <p class="project-period">time start end</p>
-                    <ul class="project-skills">
-                        <li>Project 1 description</li>
-                        <li>Project 1 description</li>
-                        <li>Project 1 description</li>
-                    </ul>
-                    <a href="#" class="project-link/ github link">Check it out on my GitHub!</a>     
-                </div>
 
-                <!-- Project 2 -->
-                <div class="project-card">
-                    <h3>project 2</h3>
-                    <p class="project period">time start end</p>
-                    <ul class="project-skills">
-                        <li>Project 2 description</li>
-                        <li>Project 2 description</li>
-                        <li>Project 2 description</li>
-                    </ul>
-                    <a href="#" class="project-link/ github link">Check it out on my GitHub!</a>
-                </div>
-                <!-- Project n... -->
-            </div>
-        </div>
-    </section>
-    <!-- Skill Title Section -->
-    <section class="skills-title">
-        <div class="skills-title">
-            <span class="skills-subtitle">Explore My</span>
-            <span class="skills">Skills</span>
-        </div>
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">Tuan Le</a>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="index.html"  class="nav__link  nav__link--active">Portfolio</a></li>
+          <li><a href="about.html"  class="nav__link">About</a></li>
+          <li><a href="resume.pdf"  class="nav__link" target="_blank" rel="noopener">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= MAIN ================= -->
+  <main>
+
+    <!-- HELLO -->
+    <section class="hello">
+      <div class="container hello__inner">
+        <h1 class="hello__title">Hi there! I’m Tuan</h1>
+        <p  class="hello__subtitle">
+          I’m studying Computer Science in Munich.<br>
+          This is a test portfolio page to showcase my projects and skills.
+        </p>
+      </div>
     </section>
 
-    <!-- Skill Section -->
-    <section class="skills-section">
-        <div class="container">
-            <div class="skills-grid">
-                <!-- Skill 1 -->
-                <div class="skill-card">
-                    <h3>Skill 1</h3>
-                    <ul>
-                        <li>Skill 1 description</li>
-                        <li>Skill 1 description</li>
-                        <li>Skill 1 description</li>
-                    </ul>
-                </div>
-                <!-- Skill 2 -->
-                <div class="skill-card">
-                    <h3>Skill 2</h3>
-                    <ul>
-                        <li>Skill 2 description</li>
-                        <li>Skill 2 description</li>
-                        <li>Skill 2 description</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <!-- SELECTED PROJECTS LABEL -->
+    <section class="section-label">
+      <span class="section-label__text">SELECTED PROJECTS</span>
+      <span class="section-label__icon">↓</span>
     </section>
 
-    <!-- contact Section -->
-    <section id="contact" class="contact-section">
-        <div class="contact-content">
-            <p class="contact-text">Feel free to reach out to me for any inquiries or collaborations. 
-                this is a short text abouthow available i am bla bla bla</p>
-            <div class="button-group">
-                <a href="resume.pdf" target="_blank" rel="noopener" class="btn button-resume">Resume</a>
-                <a href="mailto:tuanla50@icloud.com" class="btn button-email">Email</a>
-                <a href="https://github.com/ge47kuf" target="_blank" rel="noopener" class="btn button-github">GitHub</a>
-            </div>
-        </div>
+    <!-- PROJECTS -->
+    <section class="projects">
+      <div class="container projects__grid">
+
+        <!-- Project Card -->
+        <article class="card project">
+          <h3 class="project__title">Project 1</h3>
+          <p  class="project__period">time start – end</p>
+          <ul class="project__list">
+            <li>Project 1 description</li>
+            <li>Project 1 description</li>
+            <li>Project 1 description</li>
+          </ul>
+          <a href="#" class="project__link">Check it out on GitHub!</a>
+        </article>
+
+        <!-- Duplicate <article class="card project"> … for weitere Projekte -->
+        <article class="card project">
+          <h3 class="project__title">Project 1</h3>
+          <p  class="project__period">time start – end</p>
+          <ul class="project__list">
+            <li>Project 1 description</li>
+            <li>Project 1 description</li>
+            <li>Project 1 description</li>
+          </ul>
+          <a href="#" class="project__link">Check it out on GitHub!</a>
+        </article>
+
+                <article class="card project">
+          <h3 class="project__title">Project 1</h3>
+          <p  class="project__period">time start – end</p>
+          <ul class="project__list">
+            <li>Project 1 description</li>
+            <li>Project 1 description</li>
+            <li>Project 1 description</li>
+          </ul>
+          <a href="#" class="project__link">Check it out on GitHub!</a>
+        </article>
+      </div>
     </section>
+
+    <!-- SKILLS LABEL -->
+    <section class="section-label">
+      <span class="section-label__text">EXPLORE MY</span>
+      <span class="section-label__icon">Skills</span>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills">
+      <div class="container skills__grid">
+
+        <!-- Skill Card -->
+        <article class="card skill">
+          <h3 class="skill__title">Skill 1</h3>
+          <ul class="skill__list">
+            <li>Skill 1 description</li>
+            <li>Skill 1 description</li>
+            <li>Skill 1 description</li>
+          </ul>
+        </article>
+
+        <!-- Duplicate <article class="card skill"> … für weitere Skills -->
+        <article class="card skill">
+          <h3 class="skill__title">Skill 1</h3>
+          <ul class="skill__list">
+            <li>Skill 1 description</li>
+            <li>Skill 1 description</li>
+            <li>Skill 1 description</li>
+          </ul>
+        </article>
+        
+        <article class="card skill">
+          <h3 class="skill__title">Skill 1</h3>
+          <ul class="skill__list">
+            <li>Skill 1 description</li>
+            <li>Skill 1 description</li>
+            <li>Skill 1 description</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <div class="container contact__inner">
+        <p class="contact__text">
+          Feel free to reach out to me for any inquiries or collaborations.
+        </p>
+        <div class="btn-group">
+          <a href="resume.pdf"             class="btn btn--secondary" target="_blank" rel="noopener">Resume</a>
+          <a href="mailto:tuanla50@icloud.com" class="btn btn--primary">Email</a>
+          <a href="https://github.com/ge47kuf" class="btn btn--secondary" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
 </body>
 </html>
