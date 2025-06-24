@@ -7,7 +7,10 @@
 
 - [x] define a structure for the website
 - [x] create a design for the website via figma
-- [ ] implement design
+- [x] implement website structure with html/css
+- [ ] vc link
+- [ ] dark light mode
+- [ ] english german mode
 
 ---
 
@@ -32,16 +35,6 @@
 - create a wireframe for each page
   - use figma to design the layout
   - focus on user experience and navigation
-
-### RESEARCH
-
-- inspiration:
-  - <https://webflow.com>
-    - <https://www.laurenhungdesign.com/>
-    - <https://akshayamad.webflow.io/>
-  - <https://www.behance.net>
-
-### Result
 
 ![website_structure_v1](docs/image/figma_structure_v1.png)
 
@@ -76,4 +69,4 @@
 
 ## watch tutorial
 
-- <https://www.youtube.com/watch?v=BOt3MNB71gI&list=PLjiHFwhbHYlEmPhn68XdG2p2k4X47XR-8> (prototyping)
+- <https://www.youtube.com/watch?v=BOt3MNB71gI&list=PLjiHFwhbHYlEmPhn68XdG2p2k4X47XR-8>
