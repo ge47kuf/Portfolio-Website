@@ -25,10 +25,10 @@
 }
 
 /* =========================================================
-   1. RESET & BASICS
+   1. RESET & BASICS 
    ========================================================= */
-*,
-*::before,
+*,  /* Reset all elements */
+*::before,  /* Reset pseudo-elements */
 *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
@@ -70,14 +70,14 @@ h1, h2, h3 { line-height: 1.2; font-weight: 600; }
    --------------------------------------------------------- */
 
 /* HELLO */
-.hello { background: #fafafa; padding-block: var(--spacing-l); }
+.hello { background: var(--clr-bg); padding-block: var(--spacing-l); }
 .hello__inner    { display: flex; flex-direction: column; gap: var(--spacing-s); }
 .hello__title    { font-size: 2.5rem; }
 .hello__subtitle { color: var(--clr-muted); }
 
 /* SECTION-LABEL (graue Mini-Section) */
 .section-label           { text-align: center; margin-block: var(--spacing-m); }
-.section-label__text     { display: block; font-size: .7rem; letter-spacing: .2rem; color: var(--clr-muted); }
+.section-label__text     { display: block; font-size: .75rem; letter-spacing: .2rem; color: var(--clr-text); }
 .section-label__icon     { font-size: .9rem; }
 
 /* PROJECTS */
@@ -85,7 +85,7 @@ h1, h2, h3 { line-height: 1.2; font-weight: 600; }
 .projects__grid  { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-m); }
 
 /* SKILLS */
-.skills          { background: #fafafa; padding-block: var(--spacing-l); }
+.skills          { background: var(--clr-bg); padding-block: var(--spacing-l); }
 .skills__grid    { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-m); }
 
 /* CONTACT */
@@ -100,8 +100,8 @@ h1, h2, h3 { line-height: 1.2; font-weight: 600; }
   .about__block { grid-template-columns: 1fr 2fr; }
 }
 .about__image img { width: 100%; border-radius: var(--radius); }
-.about__title     { font-size: 1.5rem; margin-bottom: var(--spacing-xs); }
-.about__paragraph { color: var(--clr-muted); }
+.about__title     { display: block; font-size: 1rem; letter-spacing: .2rem; color: var(--clr-text); margin-block-end: var(--spacing-xs);}
+.about__paragraph { font-size: .95rem ; color: var(--clr-text); }
 
 /* ---------------------------------------------------------
    4. COMPONENTS
@@ -130,10 +130,8 @@ h1, h2, h3 { line-height: 1.2; font-weight: 600; }
 .btn {
   display: inline-block; padding: .75rem 1.5rem; border-radius: var(--radius);
   text-decoration: none; font-weight: 500; transition: background var(--easing), transform var(--easing);
+  color: var(--clr-text); background: var(--clr-bg);
 }
-.btn--primary  { background: var(--clr-primary);  color: #fff;  }
-.btn--secondary{ background: #f5f5f5;             color: var(--clr-text); border: 1px solid var(--clr-border); }
 
 .btn:hover     { transform: translateY(-2px); }
-.btn--primary:hover   { background: var(--clr-primary-i); }
-.btn--secondary:hover { background: #e0e0e0; }
+
