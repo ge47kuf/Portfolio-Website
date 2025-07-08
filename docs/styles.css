@@ -3,7 +3,7 @@
    ========================================================= */
 :root {
   /* Layout */
-  --container-width: 1200px;
+  --container-width: 1900px;
   --spacing-xs: .5rem;
   --spacing-s : 1rem;
   --spacing-m : 2rem;
@@ -96,8 +96,9 @@ h1, h2, h3 { line-height: 1.2; font-weight: 600; }
 
 /* ABOUT PAGE */
 .about__block { display: grid; gap: var(--spacing-m); padding-block: var(--spacing-l); }
-@media (min-width: 768px) {
-  .about__block { grid-template-columns: 1fr 2fr; }
+@media (min-width: 1000px) {
+  /* min picture size*/
+  .about__block { grid-template-columns: 1fr 2fr; align-items: center;}
 }
 .about__image img { width: 100%; border-radius: var(--radius); }
 .about__title     { display: block; font-size: 1rem; letter-spacing: .2rem; color: var(--clr-text); margin-block-end: var(--spacing-xs);}
