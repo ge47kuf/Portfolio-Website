@@ -8,6 +8,7 @@
   --spacing-s : 1rem;
   --spacing-m : 2rem;
   --spacing-l : 4rem;
+  --padding-top: 1rem;
 
   /* Colors */
   --clr-bg       : #ffffff;
@@ -85,7 +86,7 @@ h1, h2, h3 { line-height: 1.2; font-weight: 600; }
 .projects__grid  { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-m); }
 
 /* SKILLS */
-.skills          { background: var(--clr-bg); padding-block: var(--spacing-l); }
+.skills          { background: var(--clr-bg); padding-block: var(--spacing-l); padding-top: var(--padding-top);}
 .skills__grid    { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-m); }
 
 /* CONTACT */
