@@ -1,6 +1,4 @@
-/* =========================================================
-   0. VARIABLES (zentral)
-   ========================================================= */
+/* variable */
 :root {
   /* Layout */
   --container-width: 1900px;
@@ -25,9 +23,7 @@
   --easing   : .2s ease-in-out;
 }
 
-/* =========================================================
-   1. RESET & BASICS 
-   ========================================================= */
+/* reset and basic*/
 *,  /* Reset all elements */
 *::before,  /* Reset pseudo-elements */
 *::after { box-sizing: border-box; margin: 0; padding: 0; }

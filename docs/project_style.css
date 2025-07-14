@@ -1,0 +1,75 @@
+/* variable*/
+:root {
+  /* Layout */
+  --container-width: 1900px;
+  --spacing-xs: .5rem;
+  --spacing-s : 1rem;
+  --spacing-m : 2rem;
+  --spacing-l : 4rem;
+  --padding-top: 1rem;
+
+  /* Colors */
+  --clr-bg       : #ffffff;
+  --clr-text     : #222222;
+  --clr-muted    : #666666;
+  --clr-border   : #dddddd;
+  --clr-primary  : #0070f3;
+  --clr-primary-i: #0056b3;          /* hover/darkened */
+  --clr-dark-bg  : #070707;
+  --clr-dark-fg  : #ffffff;
+
+  /* Others */
+  --radius   : .5rem;
+  --easing   : .2s ease-in-out;
+}
+
+/* reset and basic*/
+*,  /* Reset all elements */
+*::before,  /* Reset pseudo-elements */
+*::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: "Inter", sans-serif;
+  color: var(--clr-text);
+  line-height: 1.6;
+  background: var(--clr-bg);
+}
+
+/* Generic container */
+.container { width: 90%; max-width: var(--container-width); margin-inline: auto; }
+
+/* Headings */
+h1, h2, h3 { line-height: 1.2; font-weight: 600; }
+
+/* navigation header */
+
+.site-header {
+  position: sticky; top: 0; z-index: 1000;
+  background: var(--clr-bg);
+  border-bottom: 1px solid var(--clr-border);
+  padding-block: var(--spacing-s);
+}
+.header__inner { display: flex; justify-content: space-between; align-items: center; }
+
+.logo { font-size: 1.25rem; font-weight: 700; text-decoration: none; color: var(--clr-text); }
+
+.nav__list { list-style: none; display: flex; gap: var(--spacing-m); }
+.nav__link {
+  text-decoration: none; color: var(--clr-muted); font-weight: 500; padding-bottom: .25rem;
+  transition: color var(--easing);
+}
+.nav__link:hover        { color: var(--clr-text); }
+.nav__link--active      { color: var(--clr-text); border-bottom: 2px solid var(--clr-text); }
+ 
+/* picture section*/
+.full-width-img { 
+    display: block; 
+    width: 100vw;      /* Volle Seitenbreite */
+    max-width: 100vw;  /* Kein Überlauf */
+    height: auto;      /* Höhe passt sich dem Bild an */
+    object-fit: cover; /* Optional: Bild füllt den Bereich, kann aber zuschneiden */
+    margin-left: calc(-50vw + 50%); /* Bild zentrieren*/
+}
+
+
+
